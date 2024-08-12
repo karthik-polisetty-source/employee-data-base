@@ -6,61 +6,64 @@ import jakarta.persistence.Id;
 public class Employee {
 
 	@Id
-	private int eId;
-	private String eName;
-	private String eAddress;
-	private int eSalary;
-	private String orgName;
+	private int eid;
+	private String ename;
+	private String eaddress;
+	private int esalary;
+	private String eorgName;
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Employee(int eId, String eName, String eAddress, int eSalary, String orgName) {
+	public Employee(int eid, String ename, String eaddress, int esalary, String eorgName) {
 		super();
-		this.eId = eId;
-		this.eName = eName;
-		this.eAddress = eAddress;
-		this.eSalary = eSalary;
-		this.orgName = orgName;
+		this.eid = eid;
+		this.ename = ename;
+		this.eaddress = eaddress;
+		this.esalary = esalary;
+		this.eorgName = eorgName;
 	}
-	public int geteId() {
-		return eId;
+	public int getEid() {
+		return eid;
 	}
-	public void seteId(int eId) {
-		this.eId = eId;
+	public void setEid(int eid) {
+		this.eid = eid;
 	}
-	public String geteName() {
-		return eName;
+	public String getEname() {
+		return ename;
 	}
-	public void seteName(String eName) {
-		this.eName = eName;
+	public void setEname(String ename) {
+		this.ename = ename;
 	}
-	public String geteAddress() {
-		return eAddress;
+	public String getEaddress() {
+		return eaddress;
 	}
-	public void seteAddress(String eAddress) {
-		this.eAddress = eAddress;
+	public void setEaddress(String eaddress) {
+		this.eaddress = eaddress;
+	}
+	public int getEsalary() {
+		return esalary;
+	}
+	public void setEsalary(int esalary) {
+		this.esalary = esalary;
+	}
+	public String getEorgName() {
+		return eorgName;
+	}
+	public void setEorgName(String eorgName) {
+		this.eorgName = eorgName;
 	}
 	
-	
-	public int geteSalary() {
-		return eSalary;
-	}
-	public void seteSalary(int eSalary) {
-		this.eSalary = eSalary;
-	}
-	public String getOrgName() {
-		return orgName;
-	}
-	public void setOrgName(String orgName) {
-		this.orgName = orgName;
-	}
 	
 	@Override
 	public String toString() {
-		return "Employee [eId=" + eId + ", eName=" + eName + ", eAddress=" + eAddress + ", eSalary=" + eSalary
-				+ ", orgName=" + orgName + "]";
+		return "Employee [eid=" + eid + ", ename=" + ename + ", eaddress=" + eaddress + ", esalary=" + esalary
+				+ ", eorgName=" + eorgName + "]";
 	}
+	
+	
+	
+	
 	
 	
 	
