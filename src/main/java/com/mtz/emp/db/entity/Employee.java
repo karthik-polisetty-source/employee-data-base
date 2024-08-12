@@ -1,7 +1,4 @@
 package com.mtz.emp.db.entity;
-
-
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -12,13 +9,13 @@ public class Employee {
 	private int eId;
 	private String eName;
 	private String eAddress;
-	private float eSalary;
+	private int eSalary;
 	private String orgName;
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Employee(int eId, String eName, String eAddress, float eSalary, String orgName) {
+	public Employee(int eId, String eName, String eAddress, int eSalary, String orgName) {
 		super();
 		this.eId = eId;
 		this.eName = eName;
@@ -47,7 +44,7 @@ public class Employee {
 	public float geteSalary() {
 		return eSalary;
 	}
-	public void seteSalary(float eSalary) {
+	public void seteSalary(int eSalary) {
 		this.eSalary = eSalary;
 	}
 	public String getOrgName() {
