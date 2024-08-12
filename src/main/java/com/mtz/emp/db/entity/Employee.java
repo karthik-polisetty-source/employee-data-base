@@ -41,7 +41,7 @@ public class Employee {
 	public void seteAddress(String eAddress) {
 		this.eAddress = eAddress;
 	}
-	public float geteSalary() {
+	public int geteSalary() {
 		return eSalary;
 	}
 	public void seteSalary(int eSalary) {
