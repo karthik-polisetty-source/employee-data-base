@@ -41,7 +41,9 @@ public class Employee {
 	public void seteAddress(String eAddress) {
 		this.eAddress = eAddress;
 	}
-	public float geteSalary() {
+	
+	
+	public int geteSalary() {
 		return eSalary;
 	}
 	public void seteSalary(int eSalary) {
@@ -52,6 +54,12 @@ public class Employee {
 	}
 	public void setOrgName(String orgName) {
 		this.orgName = orgName;
+	}
+	
+	@Override
+	public String toString() {
+		return "Employee [eId=" + eId + ", eName=" + eName + ", eAddress=" + eAddress + ", eSalary=" + eSalary
+				+ ", orgName=" + orgName + "]";
 	}
 	
 	
