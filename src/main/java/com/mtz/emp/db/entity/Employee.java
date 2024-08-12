@@ -41,8 +41,13 @@ public class Employee {
 	public void setEaddress(String eaddress) {
 		this.eaddress = eaddress;
 	}
+<<<<<<< HEAD
 	public int getEsalary() {
 		return esalary;
+=======
+	public int geteSalary() {
+		return eSalary;
+>>>>>>> 9a927c2c9377bba4b2e97f17212b7a2ecb4877f0
 	}
 	public void setEsalary(int esalary) {
 		this.esalary = esalary;
