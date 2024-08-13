@@ -45,6 +45,7 @@ public class Employee {
 	public int getEsalary() {
 		return esalary;
 	}
+
 	public void setEsalary(int esalary) {
 		this.esalary = esalary;
 	}
