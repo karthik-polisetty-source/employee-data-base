@@ -44,8 +44,13 @@ public class Employee {
 
 	public int getEsalary() {
 		return esalary;
+<<<<<<< HEAD
 
 	}
+=======
+        }
+	
+>>>>>>> ab0e5b5451de41d1c4f3d0f0326262a5be4aa0c2
 	public void setEsalary(int esalary) {
 		this.esalary = esalary;
 	}
