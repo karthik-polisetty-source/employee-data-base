@@ -29,6 +29,11 @@ public class EmpService {
 		return empRepo.findAll();
 	}
 
+	public String deleteUser(int eid) {
+		
+		return null;
+	}
+
 	
 
 }
