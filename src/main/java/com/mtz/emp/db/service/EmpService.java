@@ -1,5 +1,7 @@
 package com.mtz.emp.db.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,5 +18,17 @@ public class EmpService {
 		
 		return empRepo.save(emp);
 	}
+
+	public List<Employee> postAllRecords(List<Employee> empList) {
+		
+		return empRepo.saveAll(empList);
+	}
+
+	public List<Employee> fetchAllRecords() {
+		
+		return empRepo.findAll();
+	}
+
+	
 
 }
